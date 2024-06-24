@@ -135,7 +135,7 @@ const Register = ({ mode }: { mode: SystemMode }) => {
               label='Password'
               placeholder='············'
               type={isPasswordShown ? 'text' : 'password'}
-              onChange={(e) => setPassword(e.target.value)} 
+              onChange={(e) => setPassword(e.target.value)}
               InputProps={{
                 endAdornment: (
                   <InputAdornment position='end'>
