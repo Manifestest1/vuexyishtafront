@@ -1,0 +1,13 @@
+.menuItemRoot {
+  display: flex;
+  align-items: center;
+}
+
+.menuItemSelected {
+  background-color: #d3d3d3 !important; /* Change the background color */
+}
+
+.menuItemImage {
+  border-radius: 50%;
+  margin-inline-end: 12px;
+}
